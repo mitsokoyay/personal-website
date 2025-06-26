@@ -4,7 +4,10 @@
         <meta charset="UTF-8" />
         <title>Dylan Berutti</title>
 
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
         <style>
             body {
                 font-family: "Poppins", sans-serif;
@@ -14,44 +17,84 @@
                 margin: 4rem auto;
                 line-height: 1.5;
             }
-
-body2 {
-                font-family: "Poppins", sans-serif;
-                background-color: white;
-                color: blue;
-                max-width: 700px;
-                margin: 4rem auto;
-                line-height: 1.5;
-            }
-            a {
-                color: #f8f8ff;
-            }
-            img{
-                width: 200px;
+            img {
+                width: 160px;
                 border-radius: 50%;
                 margin-bottom: 1rem;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            h1 {
+                color: red;
+                font-size: 2rem;
+                margin-top: 2rem;
+                text-align: center;
+            }
+            h2 {
+                color: red;
+                font-size: 1.5rem;
+                margin-top: 2rem;
+                text-align: center;
+            }
+            section {
+                margin-bottom: 2.5rem;
+                padding-bottom: 1rem;
+                border-bottom: 5px solid goldenrod;
+            }
+            .skills,
+            .bio, .lowlevel {
+                border: 1px solid goldenrod;
+                border-radius: 15px;
+                padding: 20px;
+                background-color: #f9f9f9;
+            }
+            .bio p {
+                color: royalblue;
+                font-size: 1.1rem;
+                text-align: center;
+            }
+            .skills p {
+                color: royalblue;
+                margin: 0.4rem 0;
+                font-family:
+                    "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1rem;
+                text-align: center;
+            }
+            .lowlevel p{
+                color: royalblue;
+                margin: 0.4rem 0;
+                font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1rem;
+                text-align: center;
             }
         </style>
     </head>
     <body>
         <img src="images/mepic.jpg" alt="a picture of me" />
-        <h1>Hi, I'm Dylan!</h1>
-    </body>
-    <body2>
-        <p>Computer Science at the University of Pittsburgh!</p>
-        <p>Linux Nerd, Low Level Programming Enjoyer, Car Enthusiast, Urbanist, and Photographer</p>
-    </body2>
-    <body>
-        <h1>Skills:</h1>
-    </body>
-    <body2>
-        <p>- Linux Systems, Shell Scripting, Donker</p>
-        <p>- Java, Python, Kotlin</p>
-        <p>- HTML & CSS, JavaScript, TypeScript, Svelte</p>
-        <p>- Low Level Programming: C, Rust, Zig</p>
-        <p>- Learning: C++, Go, Assembly</p>
-        <p>- Functional Programming: Haskell, Roc, Elm
-        </body2>
 
-    <body></body>
+        <section class="bio">
+            <h1>Hi, I'm Dylan!</h1>
+            <p>Computer Science at the University of Pittsburgh!</p>
+            <p>
+                Linux Nerd, Low Level Programming Enjoyer, Car Enthusiast,
+                Urbanist, and Photographer
+            </p>
+        </section>
+
+        <section class="skills">
+            <h1>Skills:</h1>
+            <p>- Linux Systems, Shell Scripting, Donker</p>
+            <p>- Java, Python, Kotlin</p>
+            <p>- HTML & CSS, JavaScript, TypeScript, Svelte</p>
+            <section class="lowlevel">
+            <h2>Low Level Programming</h2>
+            <p> C, Rust, Zig</p>
+            </section>
+            <p>- Learning: C++, Go, Assembly</p>
+            <p>- Functional Programming: Haskell, Roc, Elm</p>
+        </section>
+    </body>
 </html>
