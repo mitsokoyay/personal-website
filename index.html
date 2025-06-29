@@ -1,5 +1,7 @@
 <!doctype html>
+<script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.6/dist/htmx.min.js" integrity="sha384-Akqfrbj/HpNVo8k11SXBb6TlBWmXXlYQrCSqEWmyKJe+hDm3Z/B2WVG4smwBkRVm" crossorigin="anonymous"></script>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8" />
         <title>Dylan Berutti</title>
@@ -92,7 +94,7 @@
             <p>- Java, Python, Kotlin</p>
             <h2>High Level Programming & Web Dev</h2>
             <p>- HTML & CSS, JavaScript, TypeScript, Svelte</p>
-            <h1>Based Level Programming</h1>
+            <h2>Based Level Programming</h2>
             <p> C, Rust, Zig</p>
             <p>- Learning: C++, Go, Assembly</p>
             <p>- Functional Programming: Haskell, Roc, Elm</p>
@@ -101,5 +103,13 @@
           <h1>Blog!!! :3</h2>
           <h2>Why I Love Linux</h2>
           <p>Linux: the tool so nerdy, even other computer scientists call me a geek for using it. Linux and I have been acquainted for years- but it's only recently that I fell in love. Thinking back to 2017- I was in 5th grade, and only starting to get into this whole computer thing. Linus Tech Tips became my babysitter and there was nothing that I wanted more in the world than a fancy new Windows desktop. The GTX Titan Xp was the creme de la creme of graphics cards, it seeming like the unobtainium of the day. I fantasized about all the games I could play with a PC. I thought Windows was the obvious choice, and through helping my grandparents navigate their digital life, I already had a decent understanding of how it worked. But I kept hearing this name be thrown around- "Linux", usually made as either a passing sneer or with post-ironic praising my eleven year old mind didn't quite understand. All I knew was that it was free, and to me that meant it couldn't possibly hold a candle to Windows- I didn't quite understand the concept of open source just yet. With that, I wrote it off. Only a couple years later, I found myself with that fancy new Windows desktop. I was having no problems with Windows, but I saw a video on YouTube that piqued my interest. It was titled: "9 second boot time arch linux". Nine seconds? Is that even possible? Even my brand new gaming desktop takes 20+ seconds to boot. </p>
+          <div id="linux-extra"></div>
+          <button 
+            hx-get="blog/linuxmore.html" 
+            hx-target="#linux-extra" 
+            hx-swap="inner-html">
+            Read More
+          </button>
+        </section>
     </body>
 </html>
