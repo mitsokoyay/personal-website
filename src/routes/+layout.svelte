@@ -6,8 +6,8 @@
 <pre class="ascii-banner" aria-label="ascii-name">{asciiName}</pre>
 
 <header class="site-header">
-    <nav>
-        <a href="/">Home</a>
+    <nav class="nav">
+        <a href="/" class="home-link">Home</a>
         <a href="/about">About</a>
         <a href="/projects">Projects</a>
     </nav>
