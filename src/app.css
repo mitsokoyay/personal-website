@@ -1,0 +1,34 @@
+.navbar {
+    background-color: var(--nav-bg);
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: var(--nav-text);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+@media (max-width: 800px) {
+    .skills-container {
+        flex-direction: column;
+    }
+}
+
+.skills {
+    flex: 1 1 0;
+    min-width: 240px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}

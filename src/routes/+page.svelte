@@ -4,8 +4,15 @@
     I'm a sophomore computer science major at the university of pittsburgh with
     a passion for low level systems and UNIX!
 </p>
-<section class="skills">
-    <h1>Skills:</h1>
-    <h2>Unix and Deployment Tools:</h2>
-    <p>-Linux and docker</p>
-</section>
+<body>
+    <div class="skills-container">
+        <section class="skills">
+            <h1>Skills:</h1>
+            <h2>Unix and Deployment Tools:</h2>
+            <p>-Linux and docker</p>
+        </section>
+        <section class="skills">
+            <h1>Epic Skills and SUch</h1>
+        </section>
+    </div>
+</body>
